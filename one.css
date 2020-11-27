@@ -1,0 +1,35 @@
+h1 {
+  color: blue;
+}
+body {
+  background: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: rgb(255, 0, 0);
+}
+.didi {
+  color: rgb(179, 255, 29);
+}
+#lol {
+  color: rgb(177, 255, 120);
+}
+#story {
+  font-size: x-small;
+  letter-spacing: 1px;
+}
+#story {
+  border: none;
+  border-bottom: 2px black solid;
+  padding-top: ;
+}
+
+h1 {
+  text-align: center;
+  width: 50%;
+  font-weight: 200;
+  text-decoration: underline overline red dotted;
+  /* text-decoration: overline black ; */
+}
