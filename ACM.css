@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: blue;
+  text-decoration: underline solid black;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background: url(https://newgeniss.iata.org/wp-content/uploads/2017/09/nav-background-agents.jpg);
+  font-size: 40px;
+  opacity: 0.5;
+}
+
+nav ul {
+  float: right;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 0.6em;
+  margin-right: 35px;
+}
+.btn {
+  padding: 1px;
+}
+.btn:hover {
+  border-color: red;
+  border-radius: 0 10px/20px;
+  border-width: 1px;
+  border-style: double;
+  background-color: violet;
+  box-sizing: border-box;
+}
+
+.one {
+  color: white;
+  line-height: 80px;
+  font-size: 1.3em;
+  padding: 0 100px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.twoa {
+  padding: 10px;
+  font-size: 0.8em;
+}
+.twob {
+  padding: 10px;
+  font-size: 0.8em;
+  font: fantasy;
+}
+
+.two {
+  font-size: 1.1em;
+}
+
+main {
+  background: url(https://freefrontend.com/assets/img/css-background-patterns/simple-pattern-with-css3.png);
+  background-size: ;
+  height: 500px;
+  font-size: 30px;
+}
+main section {
+  height: 100%;
+  width: 65%;
+  /* background-color: tomato; */
+  display: inline-block;
+
+  position: relative;
+}
+
+main section div {
+  height: 50%;
+}
+
+main section div .two {
+  font-size: 1em;
+
+  padding-left: 10%;
+  padding-top: 4%;
+}
+
+.feynman {
+  position: absolute;
+  /* left: 65%; */
+  /* top: -200px; */
+  display: inline-block;
+}
+
+article {
+  position: relative;
+}
+article p {
+  position: absolute;
+  top: 80%;
+  left: 87%;
+  font-weight: bold;
+}
+article p:hover {
+  color: blue;
+}
+
+.math {
+  height: 100%;
+  width: 100%;
+  background: url(https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-UI.jpg?7301889249391399886);
+  color: black;
+  background-size: 100% 100%;
+}
+.math h2 {
+  padding-left: 5%;
+  background-color: rgb(134, 204, 102);
+}
+.math1 {
+  background-color: palegreen;
+  height: 50%;
+  width: 17%;
+  margin: 2.3%;
+  display: inline-block;
+  border-radius: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+.math1 a:hover {
+  color: crimson;
+}
+
+#M1 {
+  background: url(https://ars.els-cdn.com/content/image/3-s2.0-B9780124071636000060-f06-03-9780124071636.jpg);
+  background-size: 100% 100%;
+  color: aliceblue;
+}
+#M2 {
+  background: url(https://theo.x10hosting.com/examples/right_triangle_2.jpg);
+  background-size: 100% 100%;
+}
+
+#M3 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNuDhghsnI5iRDbtwg9m24u9AMH5HEkEd2A&usqp=CAU);
+  background-size: 100% 100%;
+  color: aliceblue;
+}
+
+#M4 {
+  background: url(https://cdn.imgbin.com/7/18/24/imgbin-permutation-combination-combinatorics-mathematics-formula-mathematics-Dnr9dnp1n7v3TrLnFULyTS7ZC.jpg);
+  background-size: 100% 100%;
+}
+
+.physics {
+  height: 100%;
+  width: 100%;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3WSEpCt5bwFcM_PCLlOxnRsfiUWf3WXoR-g&usqp=CAU);
+  color: black;
+  background-size: 100% 100%;
+}
+.physics h2 {
+  padding-left: 5%;
+  background-color: rgb(134, 204, 102);
+}
+.physics1 {
+  background-color: palegoldenrod;
+  height: 50%;
+  width: 17%;
+  margin: 2.3%;
+  display: inline-block;
+  border-radius: 10%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.physics1 a:hover {
+  color: crimson;
+}
+
+#P1 {
+  background: url(https://astronomy.osu.edu/sites/default/files/styles/slideshow_image/public/Ast1101_PlanetsToCosmos.jpg?itok=rsJwgP5-);
+  background-size: 100% 100%;
+  color: aliceblue;
+}
+#P2 {
+  background: url(https://chem.libretexts.org/@api/deki/files/8325/question_one.jpeg.jpg?revision=1);
+  background-size: 100% 100%;
+  color: aliceblue;
+}
+
+#P3 {
+  background-image: url(P.jpg);
+  background-size: 100% 100%;
+  color: aliceblue;
+}
+
+#P4 {
+  background: url(thermo.jpg);
+  background-size: 100% 100%;
+  color: aliceblue;
+}
